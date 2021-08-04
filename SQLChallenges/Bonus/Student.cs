@@ -13,7 +13,6 @@ namespace SQLChallenges.Bonus
         public string LastName { get; set; }
         public int AdvisorId { get; set; }
         public Professor Professor { get; set; }
-        public int CourseId { get; set; }
         public List<Course> Courses { get; set; }
     }
 }
